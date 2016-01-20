@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-gb" Name="F1CommandSet_en-gb">
+    <AppName>F one</AppName>
+    <Example>Launch</Example>
+
+    <Command Name="Launch">
+      <Example>F1 Launch</Example>
+      <ListenFor>{opencmd}</ListenFor>
+      <Feedback>launching F1</Feedback>
+      <Navigate />
+    </Command>
+    <PhraseList Label="opencmd">
+      <Item>launch</Item>
+      <Item>open</Item>
+      <Item>start</Item>
+    </PhraseList>
+  </CommandSet>
+</VoiceCommands>
